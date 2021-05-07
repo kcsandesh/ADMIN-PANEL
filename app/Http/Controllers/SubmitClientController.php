@@ -23,7 +23,7 @@ class SubmitClientController extends Controller
       $submit->number=$request->phone;
       $submit->address=$request->address;
       $submit->save();
-      return redirect()->back();
+      return redirect()->route('client');
 
        
     }

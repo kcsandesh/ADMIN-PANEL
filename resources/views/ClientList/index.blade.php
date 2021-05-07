@@ -38,13 +38,17 @@ Client List
       <td>{{$c->email}}</td>
       <td>{{$c->number}}</td>
       <td>{{$c->address}}</td>
-      <td><a href="{{route('edit',['id'=>$c->id])}}" class="btn btn-success">Edit</a></td>
-      <td><a href="" class="btn btn-danger">Delete</a></td>
+      <td><a href="{{route('edit',['id'=>$c->id])}}" class="btn btn-success" >Edit</a></td>
+     <form action="{{ route('delete',['id'=>$c->id]) }}" method="get">
+      {{ csrf_field() }}
+      <td><button class="btn btn-danger" onclick="return alert('are you sure you want to delete')">Delete</button></td>
+    </form>
     </tr>
     @endforeach
     
   </tbody>
 </table>
+{{ $client2->links() }}
 
 
 @endsection()

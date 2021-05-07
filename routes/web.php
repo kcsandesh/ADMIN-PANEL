@@ -49,6 +49,9 @@ Route::post('/client/submit',[
 Route::get('/client/list','ClientController@index')->name('client');
 
 Route::get('/client/edit/{id}','ClientController@edit')->name('edit');
+Route::post('/client/update/{id}','ClientController@update')->name('update');
+Route::get('/client/delete/{id}','ClientController@delete')->name('delete');
+
 
 
 

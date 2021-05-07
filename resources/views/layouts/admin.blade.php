@@ -44,7 +44,7 @@
     -->
       <div class="logo">
         
-        <a href="http://www.creative-tim.com" class="simple-text logo-normal">
+        <a href="" class="simple-text logo-normal">
           Admin Dashboard
         </a>
       </div>
@@ -64,31 +64,8 @@
           </li>
          
           
-           
-          <li>
-            <a href="./map.html">
-              <i class="now-ui-icons location_map-big"></i>
-              <p>Maps</p>
-            </a>
-          </li>
-          <li>
-            <a href="./notifications.html">
-              <i class="now-ui-icons ui-1_bell-53"></i>
-              <p>Notifications</p>
-            </a>
-          </li>
-          <li>
-            <a href="./typography.html">
-              <i class="now-ui-icons text_caps-small"></i>
-              <p>Typography</p>
-            </a>
-          </li>
-          <li class="active-pro">
-            <a href="./upgrade.html">
-              <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-              <p>Upgrade to PRO</p>
-            </a>
-          </li>
+         
+         
         </ul>
       </div>
     </div>
@@ -204,17 +181,17 @@
           <nav>
             <ul>
               <li>
-                <a href="https://www.creative-tim.com">
+                <a href="">
                   Admin 
                 </a>
               </li>
               <li>
-                <a href="http://presentation.creative-tim.com">
+                <a href="">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="http://blog.creative-tim.com">
+                <a href="">
                   Blog
                 </a>
               </li>
@@ -223,7 +200,7 @@
           <div class="copyright" id="copyright">
             &copy; <script>
               document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-            </script>, Designed by <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+            </script>, Designed by <a href="" target="_blank">Invision</a>. Coded by <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
           </div>
         </div>
       </footer>
